@@ -2,11 +2,11 @@
 
 int main()
 {
-    int temp, c, F;
+    int temp, f;
 
     printf("\nQual a temperatura");
     scanf("\n temp= %d", temp);
     
-    c = (9 * F)/5 + 32;
-    printf("\nC em F e %d", c);
+    f = (9 * temp)/5 + 32;
+    printf("\nfahenhert para celsius e %d", f);
 }
