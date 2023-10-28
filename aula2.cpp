@@ -1,18 +1,18 @@
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    float a, b, c;
-    float soma;
-    char nome;
+#define pi 3.1415
+#define canal cout << "Rafaf"; //diretiva
 
-    scanf("%f", &a);
-    scanf("%f%f", &b, &c);
+main(){
+    int vidas=3;
+    int tiros=500;
+    int life=100;
+    // int vidas, tiros;
 
-    soma = a + b + c;
-    printf("\nSoma=%f", soma);
+    cout << pi << "\n\n";
+    canal
 
-    printf("\nDigite seu nome: ");
-    scanf("%s", nome);
-    printf("\nPalavra digitada: %s", nome);
+
+    return 0;
 }
